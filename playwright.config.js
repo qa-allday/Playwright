@@ -27,9 +27,9 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     //viewport: { width: 1920, height: 1080 },
-    launchOptions: {
-      headless: false,
-    },
+    // launchOptions: {
+    //   headless: false,
+    // },
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://www.automationexercise.com/',
 
